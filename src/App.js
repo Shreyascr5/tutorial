@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Name from './components/Name';
 import ReducerTutorial from './components/ReducerTutorial';
+import Effect from './components/Effect';
+import Ref from './components/ref';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
     <Name/>
     <Body/>
     <ReducerTutorial/>
+    <Effect/>
+    <br />
+    <Ref/>
     <Footer/>
 
     </div>
