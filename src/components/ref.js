@@ -6,6 +6,7 @@ export default function Ref(){
     const inputRef=useRef(null);
     function onClick(){
         console.log(inputRef.current.value);
+        inputRef.current.focus();
         ip=inputRef.current.value;
         setDisp(ip);
         inputRef.current.value=("")

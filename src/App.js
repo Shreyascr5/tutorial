@@ -7,6 +7,8 @@ import Name from './components/Name';
 import ReducerTutorial from './components/ReducerTutorial';
 import Effect from './components/Effect';
 import Ref from './components/ref';
+import Layout from './components/Layout';
+import ImparitiveHandle from './components/ImparitiveHandle';
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
     <Effect/>
     <br />
     <Ref/>
+    <Layout/>
+    <br />
+    <ImparitiveHandle/>
     <Footer/>
 
     </div>
